@@ -1,0 +1,28 @@
+{
+  "name": "TodoMVC",
+  "version": "0.0.1",
+  "description": "playground with tutorial",
+  "license": "ISC",
+  "private": "yes",
+  "devDependencies": {
+    "browser-sync": "^2.2.3",
+    "browserify": "^9.0.3",
+    "del": "^1.1.1",
+    "envify": "^3.3.1",
+    "flux": "^2.0.1",
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-connect": "^2.2.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-shell": "^0.4.0",
+    "gulp-streamify": "0.0.5",
+    "gulp-uglify": "^1.1.0",
+    "gulp-util": "^3.0.4",
+    "open": "0.0.5",
+    "react": "^0.13.0",
+    "reactify": "^1.0.0",
+    "uglifyify": "^3.0.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^2.4.0"
+  }
+}
