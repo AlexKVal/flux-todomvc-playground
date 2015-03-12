@@ -48,9 +48,9 @@ var TodoStore = assign({}, EventEmitter.prototype, {
         destroy(action.id);
         TodoStore.emitChange();
         break;
+      default:
+        // noop
     }
-
-    return true; // No errors. Needed by promise in Dispatcher.
   }),
 });
 
