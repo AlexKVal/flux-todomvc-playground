@@ -1,12 +1,12 @@
 var React = require('react');
-var Footer = require('./Footer');
-var Header = require('./Header');
-var MainSection = require('./MainSection');
+// var Footer = require('./Footer');
+// var Header = require('./Header');
+// var MainSection = require('./MainSection');
 var TodoStore = require('../stores/TodoStore');
 
 function getTodoState() {
   return {
-    allTodos: TodoStore.getAll();
+    allTodos: TodoStore.getAll()
   };
 }
 
@@ -26,11 +26,12 @@ var TodoApp = React.createClass({
   render: function() {
     return (
       <div>
-        <MainSection allTodos={this.state.allTodos} />
-        <Footer allTodos={this.state.allTodos} />
+
       </div>
     );
   }
+  // <MainSection allTodos={this.state.allTodos} />
+  // <Footer allTodos={this.state.allTodos} />
 });
 
 module.exports = TodoApp;
